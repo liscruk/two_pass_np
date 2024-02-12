@@ -17,4 +17,6 @@ RSeQC - particullary the script read_distribution.py!
 
 Pipeline DAG:
 
-![text83](https://github.com/liscruk/two_pass_np/assets/48765886/0b40610b-00bf-4bc7-880b-bd1e40728a3f)
+![text83](https://github.com/liscruk/two_pass_np/assets/48765886/76e76934-887c-453c-b7c0-dc9d90e8a0ae)
+
+
