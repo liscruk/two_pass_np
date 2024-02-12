@@ -1,0 +1,50 @@
+# Version 1.2
+# Dependencies in no particular order that should be in $PATH:
+# minimap2
+# samtools
+# nanoQC - if you want QC
+# salmon
+# R and tidyverse
+# Python3 with pandas,numpy,argparse
+# Snakemake
+
+# Define Path for results
+resultsdir: ""
+
+# Define experiment name
+experiment: ""
+
+# Define n-threads:
+threads: 25
+
+# Define location for support scripts and depencendies
+# Don't change this if you just cloned the git
+source: "src"
+
+# Define references
+# Path to fasta formatted reference
+# Generally any reference will do.
+ref_genome: ""
+
+# Path to annotation gtf.
+# I strong recommend using gencode. Some functionality may be lost, especially in the aggregation of results.
+# If you use different annotations, be aware that, sometimes the pipeline assumes ensemble gene ids so keep that in mind.
+ref_annotation: ""
+
+# Path to gene model reference in bed format required by salmon.
+# Genemodels for your corresponding reference. Can be found at gencode for example
+ref_model: ""
+
+# Give path to minimap indexed reference data.
+# Generally an MMI. When generating, see minimap2 documentation for best practices
+index: ""
+
+### Add samples as needed.Define sample names as needed. One sample per line.
+### Use common sense in naming of sample
+samples:
+  Sample1: ""
+  Sample2: ""
+  Sample3: ""
+
+
+
